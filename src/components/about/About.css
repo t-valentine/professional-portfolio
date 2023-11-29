@@ -1,0 +1,12 @@
+#about-page {
+  align-items: center;
+  display: flex;
+}
+
+.left-section {
+  width: 30%;
+}
+
+.right-section {
+  width: 70%;
+}

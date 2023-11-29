@@ -1,0 +1,39 @@
+.exterior {
+  border: 2px solid #6d6d6d;
+  background-color: #d4d0c8;
+  margin: 10px;
+  padding: 4px;
+}
+
+.title-bar {
+  align-items: center;
+  background-color: #0c266c;
+  background: linear-gradient(0.25turn, #0c266c, #a2c6ed);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.title-bar div {
+  display: flex;
+}
+
+.title-bar:first-child p {
+  margin: 5px;
+}
+
+.title-buttons {
+  border: 1px solid black;
+  background-color: #d4d0c8;
+  color: black;
+  margin: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.interior {
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 3px;
+}
