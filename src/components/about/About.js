@@ -5,13 +5,6 @@ import AgileLogo from "../../assets/tech-icons/icons8-agile-100.png";
 import GitLogo from "../../assets/tech-icons/icons8-git-100.png";
 
 function About() {
-  var React = require("react");
-  var Packery = require("react-packery-component")(React);
-
-  var packeryOptions = {
-    transitionDuration: 0,
-  };
-
   return (
     <div id="about-page">
       <div className="left-section">
@@ -28,12 +21,7 @@ function About() {
           title="Technology"
           content={
             <>
-              <Packery
-                className={"my-gallery-class"} // default ''
-                elementType={"ul"} // default 'div'
-                options={packeryOptions} // default {}
-                disableImagesLoaded={false} // default false
-              >
+              <div className="tech-grid">
                 <img
                   src={DotNetLogo}
                   alt="dot net logo"
@@ -82,7 +70,7 @@ function About() {
                   alt="power bi logo"
                   className="grid-item"
                 ></img>
-              </Packery>
+              </div>
             </>
           }
         />

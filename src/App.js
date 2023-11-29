@@ -1,5 +1,7 @@
 import Header from "./components/header/Header.js";
 import About from "./components/about/About.js";
+import Project from "./components/projects/Projects.js";
+import Contact from "./components/contact/Contact.js";
 import "./App.css";
 
 export default function App() {
@@ -7,6 +9,8 @@ export default function App() {
     <div className="App">
       <Header />
       <About />
+      <Project />
+      <Contact />
     </div>
   );
 }
