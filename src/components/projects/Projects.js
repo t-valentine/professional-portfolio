@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div>
+    <div id="projects-page" className="section">
       <p>a list of projects i want to highlight here</p>
     </div>
   );

@@ -7,10 +7,10 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Project />
-      <Contact />
+      <Header className="section" />
+      <About className="section" />
+      <Project className="section" />
+      <Contact className="section" />
     </div>
   );
 }

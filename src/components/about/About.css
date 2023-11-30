@@ -1,6 +1,8 @@
 #about-page {
   align-items: center;
   display: flex;
+  min-height: 200px;
+  height: 86vh;
 }
 
 .left-section {

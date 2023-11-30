@@ -1,4 +1,11 @@
 /* put all styles here, if it's hyper-specific for a component then use it there*/
 .App {
-  margin: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 50px;
+  min-height: 200px;
+  height: 86vh;
 }
