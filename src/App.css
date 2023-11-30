@@ -6,6 +6,5 @@
 
 .section {
   padding: 50px;
-  min-height: 200px;
-  height: 86vh;
+  /*min-height: 86vh;*/
 }

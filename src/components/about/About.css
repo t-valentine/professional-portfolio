@@ -1,8 +1,8 @@
 #about-page {
   align-items: center;
   display: flex;
-  min-height: 200px;
-  height: 86vh;
+  justify-content: center;
+  gap: 20px;
 }
 
 .left-section {
@@ -11,4 +11,7 @@
 
 .right-section {
   width: 70%;
+  max-width: 900px;
 }
+
+/*need mobile formatting for flex direction and section widths*/
