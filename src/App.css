@@ -13,3 +13,7 @@
   background-color: #393a3b;
   color: white;
 }
+
+h1, h2 {
+  font-family: 'Rubik Mono One', monospace;
+}

@@ -14,7 +14,7 @@ import PBiLogo from "../../assets/tech-icons/icons8-power-bi-2021-100.png";
 
 function TechnologyWindow() {
   return (
-    <div id="projects-page" className="section">
+    <div>
       <p>a list of projects i want to highlight here</p>
       <img
                   src={DotNetLogo}

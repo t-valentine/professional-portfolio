@@ -5,12 +5,17 @@ function Header() {
     <div id="header-page" className="section">
       <h1>Hello World</h1>
       <h2>My name is Tobi, I'm a developer</h2>
-      <a href="#about-page">Learn More About Me</a>
-      <br />
-      <a href="#projects-page">What I've Worked On</a>
-      <br />
-      <a href="#contact-page">Contact Me</a>
-      <br />
+      <div>
+        <a href="#about-page" className="nav-link">
+          Learn More About Me
+        </a>
+        <a href="#projects-page" className="nav-link">
+          What I've Worked On
+        </a>
+        <a href="#contact-page" className="nav-link">
+          Contact Me
+        </a>
+      </div>
     </div>
   );
 }
