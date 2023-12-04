@@ -1,7 +1,10 @@
 /* put all styles here, if it's hyper-specific for a component then use it there*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:display=swap');
+
 .App {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .section {
