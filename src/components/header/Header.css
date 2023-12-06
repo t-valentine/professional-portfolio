@@ -9,12 +9,16 @@
   justify-content: end;
 }
 
+h1, h2 {
+  font-weight: normal;
+}
+
 h1 {
   font-size: 5em;
 }
 
 h2 {
-  font-family: 'Roboto Mono', monospace !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 2em;
 }
 

@@ -1,10 +1,9 @@
-/* put all styles here, if it's hyper-specific for a component then use it there*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat&display=swap');
 
 .App {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section {
@@ -15,5 +14,5 @@
 }
 
 h1, h2 {
-  font-family: 'Rubik Mono One', monospace;
+  font-family: 'Forum', serif;
 }
