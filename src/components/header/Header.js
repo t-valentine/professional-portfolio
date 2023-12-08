@@ -4,7 +4,7 @@ function Header() {
   return (
     <div id="header-page" className="section">
       <h1>Hello World</h1>
-      <h2>My name is Tobi, I'm a developer</h2>
+      <h2 id="subheading">My name is Tobi, I'm a developer</h2>
       <div>
         <a href="#about-page" className="nav-link">
           Learn More About Me
