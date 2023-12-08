@@ -1,0 +1,22 @@
+#projects-page {
+  display: flex;
+}
+
+.right-section {
+  width: 30%
+}
+
+.left-section{
+  width: 70%
+}
+
+
+@media only screen and (max-width: 600px) {
+  #projects-page {
+    flex-direction: column;
+  }
+
+  .right-section, .left-section {
+    width: 100%;
+  }
+}

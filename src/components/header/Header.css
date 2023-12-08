@@ -37,3 +37,9 @@ h1 {
   border: 1px solid #46289a;
   background-color: rgba(70, 40, 154, 80%);
 }
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    display: block;
+  }
+}
